@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adam asmaca</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="metin">
+        <p>
+            oyun oynamak ister misin ?
+        </p>
+    </div>
+    <div class="btn">
+        <!-- burası oyunu baştan başlatmak için -->
+        <a href="http://127.0.0.1:5500/play.html?girilenHarf=d" class="myButton"> Oyna </a>
+
+    </div>
+
+    <div class="index">
+        <div class="adam">
+            <img id="adamresmi" src="0.jpg"> </img>
+        </div>
+
+        <div class="game">
+            <p id="kelime"></p>
+            <h2 id="gelenharf"> Bir harf giriniz... </h2>
+            </br>
+            <form id="form">
+                <input id="text" type="text" maxlength="1" />
+                <input onclick="oyna()" id="btn2" type="button" value="harf ara">
+            </form>
+        </div>
+
+    </div>
+    <script src="adamasmaca.js"></script>
+</body>
+
+</html>
